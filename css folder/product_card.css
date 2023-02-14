@@ -1,0 +1,282 @@
+body {
+    background-color: hsl(30, 38%, 92%);
+    margin: auto;
+    font-family: Montserrat;
+}
+button:hover {
+    background-color: hsl(158, 84%, 13%);
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 375px) {
+    .container {
+        width: 90%;
+        margin: 10% auto;
+        border-radius: 3%;
+        background-color: hsl(0, 0%, 100%);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image {
+        width: 100%;
+        height: 237px;
+        margin-bottom: 10px;
+    }
+    .img {
+        background-image: url("../images/image-product-mobile.jpg");
+        background-size: cover;
+        width: 100%;
+        height: inherit;
+        border-radius: 11px 11px 0px 0px;
+    }
+    .description {
+        margin: 5%;
+    }
+    .perfume {
+        color: hsl(228, 12%, 48%);
+        letter-spacing: 3px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .gabrielle {
+        color: hsl(212, 21%, 14%);
+        font-weight: 700;
+        font-size: 35px;
+        font-family: Fraunces;
+    }
+    .floral {
+        color: hsl(228, 12%, 48%);
+        font-weight: 500;
+        font-size: 17px;
+    }
+    .amount {
+        display: flex;
+        margin: 10px 0px;
+    }
+    .discount {
+        font-weight: 700;
+        color: hsl(158, 36%, 37%);
+        font-size: 30px;
+        margin-right: 15px;
+        font-family: Fraunces;
+    }
+    .cancelled {
+        color: hsl(228, 12%, 48%);
+        font-weight: 500;
+        font-size: 14px;
+        display: flex;
+        text-decoration: line-through;
+        align-items: center;
+    }
+    .groupbutton {
+        width: 100%;
+    }
+    button {
+        height: 40px;
+        width: 100%;
+        font-size: 14px;
+        border: 0;
+        border-radius: 7px;
+        background-color: hsl(158, 36%, 37%);
+        color: hsl(0, 0%, 100%);
+    }
+    .icon{
+        margin-right: 7px;
+    }
+
+    .attribution{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+    .container {
+        width: 50%;
+        margin: 10% auto;
+        border-radius: 3%;
+        background-color: hsl(0, 0%, 100%);
+        display: flex;
+        flex-direction: row;
+    }
+
+    .image {
+        width: 200px;
+        height: inherit;
+        margin: 0;
+    }
+    .img {
+        background-image: url("../images/image-product-desktop.jpg");
+        background-size: cover;
+        width: inherit;
+        height: 100%;
+        border-radius: 11px 0px 0px 11px;
+    }
+    .description {
+        margin: 5%;
+    }
+    .perfume {
+        color: hsl(228, 12%, 48%);
+        letter-spacing: 3px;
+        font-weight: 500;
+        font-size: 10px;
+    }
+    .gabrielle {
+        color: hsl(212, 21%, 14%);
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 23px;
+        margin: 15px 0px;
+        font-family: Fraunces;
+    }
+    .floral {
+        color: hsl(228, 12%, 48%);
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .amount {
+        display: flex;
+        margin: 10px 0px;
+    }
+    .discount {
+        font-weight: 700;
+        color: hsl(158, 36%, 37%);
+        font-size: 20px;
+        margin-right: 15px;
+        font-family: Fraunces;
+    }
+    .cancelled {
+        color: hsl(228, 12%, 48%);
+        font-weight: 500;
+        font-size: 10px;
+        display: flex;
+        text-decoration: line-through;
+        align-items: center;
+    }
+    .groupbutton {
+        width: 100%;
+    }
+    button {
+        height: 40px;
+        width: 100%;
+        border: 0;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 7px;
+        background-color: hsl(158, 36%, 37%);
+        color: hsl(0, 0%, 100%);
+    }
+    .icon{
+        margin-right: 7px;
+    }
+
+    .attribution{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+@media only screen and (min-width: 1440px) {
+    .container {
+        width: 30%;
+        margin: 10% auto;
+        border-radius: 3%;
+        background-color: hsl(0, 0%, 100%);
+        display: flex;
+        flex-direction: row;
+    }
+
+    .image {
+        width: 218px;
+        height: inherit;
+        margin: 0;
+    }
+    .img {
+        background-image: url("../images/image-product-desktop.jpg");
+        background-size: cover;
+        width: inherit;
+        height: 100%;
+        border-radius: 11px 0px 0px 11px;
+    }
+    .description {
+        margin: 5%;
+    }
+    .perfume {
+        color: hsl(228, 12%, 48%);
+        letter-spacing: 3px;
+        font-weight: 500;
+        font-size: 10px;
+    }
+    .gabrielle {
+        color: hsl(212, 21%, 14%);
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 23px;
+        margin: 15px 0px;
+        font-family: Fraunces;
+    }
+    .floral {
+        color: hsl(228, 12%, 48%);
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 16px;
+    }
+    .amount {
+        display: flex;
+        margin: 10px 0px;
+    }
+    .discount {
+        font-weight: 700;
+        color: hsl(158, 36%, 37%);
+        font-size: 20px;
+        margin-right: 15px;
+        font-family: Fraunces;
+    }
+    .cancelled {
+        color: hsl(228, 12%, 48%);
+        font-weight: 500;
+        font-size: 10px;
+        display: flex;
+        text-decoration: line-through;
+        align-items: center;
+    }
+    .groupbutton {
+        width: 100%;
+    }
+    button {
+        height: 40px;
+        width: 100%;
+        border: 0;
+        font-size: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 7px;
+        background-color: hsl(158, 36%, 37%);
+        color: hsl(0, 0%, 100%);
+    }
+    .icon{
+        margin-right: 7px;
+    }
+
+    .attribution{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+}
